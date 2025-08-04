@@ -147,8 +147,7 @@ export default function TermsPage() {
           </p>
           <p>
             <strong>Northern Analytics</strong><br />
-            Email: legal@northern-analytics.com<br />
-            Phone: (555) 123-4567
+            Email: contact@northern-analytics.com<br />
           </p>
         </div>
       </div>

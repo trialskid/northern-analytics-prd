@@ -4,8 +4,8 @@ import { Timeline } from '@/components/Timeline'
 import { CTASection } from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'About Jamey Gulley - Business Intelligence & Automation Expert',
-  description: 'Learn about Jamey Gulley\'s 5+ years of experience in business intelligence, process automation, and custom application development.',
+  title: 'About Northern Analytics - Business Intelligence & Automation Expert',
+  description: 'Learn about Northern Analytics 5+ years of experience in business intelligence, process automation, and custom application development.',
 }
 
 export default function AboutPage() {
@@ -44,14 +44,14 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl font-bold tracking-tight text-na-primary sm:text-5xl mb-6">
-                About Jamey Gulley
+                About Northern Analytics
               </h1>
               <div className="prose prose-lg text-gray-600">
                 <p className="mb-4">
-                I’m a business-intelligence and automation expert as well as a digital transformation specialist. Since 2020, I’ve helped organizations replace manual spreadsheets with data-driven workflows on the Microsoft Power Platform. My work has delivered 100+ projects, saved more than 2000 hours every month, and driven client satisfaction above 98 percent.
+                Northern Analytics was founded by Jamey Gulley, a business-intelligence and automation expert as well as a digital transformation specialist. Since 2020, We have helped organizations replace manual processes with data-driven workflows on the Microsoft Power Platform. Our work has delivered 100+ projects, saved more than 2000 hours every month, and driven client satisfaction above 98 percent.
                 </p>
                 <p className="mb-4">
-                In 2025, I launched Northern Analytics to make those enterprise-grade results available to businesses of any size and industry. Combining technical depth with a clear understanding of business processes, I build solutions that surface insights, cut cycle times, and scale without extra headcount. When I’m not creating dashboards or orchestrating Power Automate flows, I stay on top of emerging Microsoft technologies that can unlock new value for clients.
+                In 2025, Jamey launched Northern Analytics to make those enterprise-grade results available to businesses of any size and industry. Combining technical depth with a clear understanding of business processes, we build solutions that surface insights, cut cycle times, and scale without extra headcount. When we are not creating dashboards or orchestrating Power Automate flows, we stay on top of emerging Microsoft technologies that can unlock new value for our clients.
                 </p>               
               </div>
             </div>
