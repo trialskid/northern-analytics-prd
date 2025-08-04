@@ -30,7 +30,7 @@ export function ProcessTimeline({ title, subtitle, steps, isTeaser = false }: Pr
           {/* Timeline line */}
           <div className="absolute left-5 md:left-1/2 md:transform md:-translate-x-px top-0 h-full w-0.5 bg-na-accent" aria-hidden="true"></div>
           
-          <div className="space-y-4">
+          <div className="space-y-8 md:space-y-4">
             {steps.map((step, index) => (
               <div key={index} className="relative flex items-center">
                 {/* Timeline dot */}
@@ -39,8 +39,8 @@ export function ProcessTimeline({ title, subtitle, steps, isTeaser = false }: Pr
                 </div>
                 
                 {/* Content */}
-                <div className={`ml-16 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-6 md:text-right' : 'md:pl-6 md:ml-auto'}`}>
-                  <div className={`bg-white p-4 rounded-na shadow-na relative ${index > 0 ? 'process-card-overlap' : ''}`}>
+                <div className={`ml-14 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-6 md:text-right' : 'md:pl-6 md:ml-auto'}`}>
+                  <div className={`bg-white p-4 rounded-na shadow-na relative ${index > 0 ? 'md:process-card-overlap' : ''}`}>
                     <h3 className="text-xl font-semibold text-na-primary mb-2">
                       {step.title}
                     </h3>
