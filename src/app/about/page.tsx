@@ -59,7 +59,7 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <div className="relative">
                 <Image
-                  src="/assets/img/jamey-gulley.jpg"
+                  src="/assets/img/jamey-gulley.JPG"
                   alt="Portrait of Jamey Gulley"
                   width={320}
                   height={320}
