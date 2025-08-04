@@ -117,7 +117,7 @@ export default function HomePage() {
         description="Let's quantify your automation opportunity. Book a 30-minute consultation and receive a high-level ROI estimate."
         primaryButtonText="Schedule Consultation"
         primaryButtonHref="/contact"
-        secondaryButtonText="See Example Solutions"
+        secondaryButtonText="See Our Solutions"
         secondaryButtonHref="/services"
         backgroundVariant="white"
       />

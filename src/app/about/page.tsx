@@ -150,9 +150,9 @@ export default function AboutPage() {
       <CTASection
         title="Let's Work Together"
         description="Ready to transform your business operations? I'd love to learn about your challenges and discuss how I can help."
-        primaryButtonText="Start a Conversation"
+        primaryButtonText="Schedule Consultation"
         primaryButtonHref="/contact"
-        secondaryButtonText="View My Work"
+        secondaryButtonText="See Our Solutions"
         secondaryButtonHref="/services"
         backgroundVariant="light"
       />
