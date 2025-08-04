@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --na-primary: #0A2540;  /* navy */
+  --na-accent: #1E90FF;   /* azure */
+  --na-bg-light: #F5F6F9; /* light gray */
+  --na-highlight: #FFB703; /* gold */
+  --na-radius: 12px;
+  --na-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+html {
+  font-family: Inter, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border, 214 32% 91%));
+  }
+  body {
+    background-color: #ffffff;
+    color: #0A2540;
+  }
+}
+
+/* Accessibility: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus-visible {
+  @apply outline-2 outline-offset-2 outline-na-accent;
+}
+
+/* Ensure 4.5:1 contrast ratio */
+.text-contrast {
+  color: #2d3748; /* Dark gray for good contrast */
+}
+
+.bg-contrast {
+  background-color: #ffffff;
+}
+
+/* Custom 5-card layout: 3 cards first row, 2 centered on second row */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-grid > * {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 350px;
+}
+
+@media (min-width: 768px) {
+  .services-grid > * {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .services-grid > * {
+    width: calc(33.333% - 1.333rem);
+  }
+  
+  .services-grid > :nth-child(4),
+  .services-grid > :nth-child(5) {
+    width: calc(33.333% - 1.333rem);
+    max-width: 350px;
+  }
+}
+
+/* Compact Process Timeline */
+.process-card-overlap {
+  margin-top: -1rem;
+  z-index: 10;
+}
+
+@media (min-width: 768px) {
+  .process-card-overlap {
+    margin-top: -1.5rem;
+  }
+}
