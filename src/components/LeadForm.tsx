@@ -51,7 +51,7 @@ export function LeadForm({ title = "Get Started", subtitle = "Ready to transform
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('https://formspree.io/f/YOUR_FORMSPREE_ID', {
+      const response = await fetch('https://formspree.io/f/mldlpgka', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -186,6 +186,7 @@ export function LeadForm({ title = "Get Started", subtitle = "Ready to transform
               <option value="automation">Process Automation</option>
               <option value="apps">Custom Applications</option>
               <option value="analytics">Business Intelligence & Analytics</option>
+              <option value="sharepoint">SharePoint Solutions</option>
               <option value="consulting">General Consulting</option>
             </select>
           </div>
