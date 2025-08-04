@@ -5,7 +5,7 @@ import { CTASection } from '@/components/CTASection'
 
 export const metadata: Metadata = {
   title: 'Our Process - How We Deliver Results',
-  description: 'Every engagement follows a structured methodology that blends business-first thinking with Microsoft Power Platform best practices. You'll always know what's next, why it matters, and how success is measured.',
+  description: 'Every engagement follows a structured methodology that blends business-first thinking with Microsoft Power Platform best practices. You\'ll always know what\'s next, why it matters, and how success is measured.',
   alternates: {
     canonical: 'https://northern-analytics.com/process',
   },
