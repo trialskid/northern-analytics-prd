@@ -5,6 +5,9 @@ import { Zap, Clock, TrendingDown, Smartphone, Database, Cog, BarChart3, PieChar
 export const metadata: Metadata = {
   title: 'Services - Process Automation, Custom Apps & Business Intelligence',
   description: 'End-to-end automation, analytics, and custom application solutions on the Microsoft Power Platform.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/services',
+  },
 }
 
 export default function ServicesPage() {

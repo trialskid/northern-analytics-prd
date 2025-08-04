@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Jamey Gulley' }],
   creator: 'Jamey Gulley',
   metadataBase: new URL('https://northern-analytics.com'),
+  alternates: {
+    canonical: 'https://northern-analytics.com',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

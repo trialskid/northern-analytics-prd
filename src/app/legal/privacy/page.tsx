@@ -3,6 +3,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy - Northern Analytics',
   description: 'Privacy policy for Northern Analytics - how we collect, use, and protect your personal information.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/legal/privacy',
+  },
 }
 
 export default function PrivacyPage() {

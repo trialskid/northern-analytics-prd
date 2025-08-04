@@ -5,6 +5,9 @@ import { CheckCircle, ArrowRight, Calendar, FileText, Users } from 'lucide-react
 export const metadata: Metadata = {
   title: 'Thank You - Message Received',
   description: 'Thank you for contacting Northern Analytics. We\'ll be in touch within 24 hours to discuss your project.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/thanks',
+  },
 }
 
 export default function ThanksPage() {

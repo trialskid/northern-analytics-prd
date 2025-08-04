@@ -10,6 +10,9 @@ import { BarChart3, Zap, Smartphone, Share2, FileSpreadsheet } from 'lucide-reac
 export const metadata: Metadata = {
   title: 'Business Intelligence & Process Automation Expert',
   description: 'Transform your business with expert business intelligence, process automation, and custom application development services. Streamline operations and unlock data-driven insights.',
+  alternates: {
+    canonical: 'https://northern-analytics.com',
+  },
 }
 
 export default function HomePage() {

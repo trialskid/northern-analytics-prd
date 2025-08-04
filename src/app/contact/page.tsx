@@ -5,6 +5,9 @@ import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Contact Us - Get Started with Your Business Transformation',
   description: 'Ready to automate processes and unlock business intelligence? Contact Northern Analytics to discuss your project and get a free consultation.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/contact',
+  },
 }
 
 export default function ContactPage() {

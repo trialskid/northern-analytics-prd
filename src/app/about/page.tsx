@@ -6,6 +6,9 @@ import { CTASection } from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'About Northern Analytics - Business Intelligence & Automation Expert',
   description: 'Learn about Northern Analytics 5+ years of experience in business intelligence, process automation, and custom application development.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/about',
+  },
 }
 
 export default function AboutPage() {
@@ -19,13 +22,13 @@ export default function AboutPage() {
     {
       year: '2022',
       title: 'First Process Automation Project',
-      description: 'Delivered first process-automation project, cutting manual effor by hundreds of hours per week.',
+      description: 'Delivered first process-automation project, cutting manual effort by hundreds of hours per week.',
       highlight: true
     },
     {
       year: '2023',
       title: 'Led Enterprise BI Implementation',
-      description: 'Led a multi-million-dollar enterprise BI rollout for a Fortune 500 operation which is utilized by over 400 emplopyees.',
+      description: 'Led a multi-million-dollar enterprise BI rollout for a Fortune 500 operation which is utilized by over 400 employees.',
       highlight: false
     },
     {

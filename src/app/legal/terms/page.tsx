@@ -3,6 +3,9 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Terms of Service - Northern Analytics',
   description: 'Terms of service for Northern Analytics - the legal terms and conditions for using our website and services.',
+  alternates: {
+    canonical: 'https://northern-analytics.com/legal/terms',
+  },
 }
 
 export default function TermsPage() {
